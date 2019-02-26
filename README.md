@@ -21,8 +21,11 @@ The requirements for the application are listed below:
  
    (1) Feed Money (2) Select Product (3) Finish Transaction Current Money Provided: $2.00 
    Customers remain in the purchase menu until they select 3 and are returned to the main menu (below). 
+   
 8. The purchase process flow is as follows 
+
    a. Selecting ​(1) Feed Money ​A customer can repeatedly feed money into the machine in whole dollar amounts (e.g. $1, $2, $5, $10).         i. The Current Money Provided indicates how much money the customer has fed into the machine. 
+   
    b. Selecting ​(2) Select Product ​presents the customer with a list of the items in the vending machine, the price, and its quantity remaining and allows the customer to select a product to purchase. 
       i. If the product code does not exist, the customer is informed and returned to the Purchase menu. 
       ii. If a product is sold out, the customer is informed and returned to the Purchase menu.  
@@ -32,10 +35,12 @@ The requirements for the application are listed below:
          2. All candy items (Bx) will return “Munch Munch, Yum!” 
          3. All drink items (Cx) will return “Glug Glug, Yum!” 
          4. All gum items (Dx) will return “Chew Chew, Yum!” 
-      v. After the product is dispensed, the machine should update its balance accordingly and return the customer to the Purchase menu. 
+      v. After the product is dispensed, the machine should update its balance accordingly and return the customer to the Purchase menu.
+      
    c. Selecting ​(3) Finish Transaction​ allows the customer to complete the transaction and receive any remaining change back. 
       i. The customer’s money is returned using nickels, dimes, and quarters (using the smallest amount of coins possible). 
       ii. The machine’s current balance should be updated to $0 remaining. 
+      
 9. All purchases must be audited to prevent theft from the vending machine 
    a. Each purchase should generate a line in a file called ​Log.txt 
    b. The audit entry should be in the format  
